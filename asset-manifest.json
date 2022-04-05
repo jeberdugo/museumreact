@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/museumreact/static/css/main.6d14183f.css",
-    "main.js": "/museumreact/static/js/main.00d520e2.js",
+    "main.js": "/museumreact/static/js/main.dfe649fe.js",
     "index.html": "/museumreact/index.html",
     "main.6d14183f.css.map": "/museumreact/static/css/main.6d14183f.css.map",
-    "main.00d520e2.js.map": "/museumreact/static/js/main.00d520e2.js.map"
+    "main.dfe649fe.js.map": "/museumreact/static/js/main.dfe649fe.js.map"
   },
   "entrypoints": [
     "static/css/main.6d14183f.css",
-    "static/js/main.00d520e2.js"
+    "static/js/main.dfe649fe.js"
   ]
 }
