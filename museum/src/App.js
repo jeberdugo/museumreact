@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 function App() {
   let [museums, setMuseums] = useState([]);
+  let [museo, setMuseo] = useState("");
   let [detail, setDetail] = useState(-1);
   let [paints, setPaints] = useState([]);
 
@@ -36,6 +37,7 @@ function App() {
   function handleDetail(id) {
     setDetail(id);
     const museum = museums.filter((museum) => museum.id === id);
+    setMuseo(museum[0].name.toUpperCase());
 
     setPaints(museum[0].artworks);
     console.log(museum[0].artworks);
@@ -97,7 +99,7 @@ function App() {
         <div className="container">
           <p className="little">Home > Museos</p>
           <div className="row" id="museos">
-            <h5 id="titulo" >MUSEOS</h5>
+            <h5 id="titulo" >{museo}: Obras principales</h5>
             </div>
         <div className="container cont-prin" >
         {paints.map((paint) => (
