@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/sevillana');
+.card{
+  border-radius: 0 !important;
+  text-align: center;
+  background-color: #C4C4C4 !important;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.paint{
+  margin-top: 20px !important;
+}
+
+.navbar{
+  background-color: #C4C4C4;
+
+}
+
+.down{
+  margin-top: auto;
+}
+
+#titulo{
+  font-weight: bold;}
+#museos{
+  background-color: #C4C4C4;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  
+}
+
+.cont-prin{
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.navbar-brand{
+  font-family: 'Sevillana', sans-serif !important;
+  font-size: 3em;
+}
+
+.little{
+  font-size: 0.8em;
+}
+.nav-item{
+  color: black;
+  font-size: 0.8em;
+}
